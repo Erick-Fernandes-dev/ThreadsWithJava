@@ -1,0 +1,27 @@
+package br.com.alura.threads;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class TelaCalculador {
+	
+	public static void main(String[] args) {
+		
+		
+		JFrame janela = new JFrame("Multiplicação Demorada");
+		
+		JTextField primeiro = new JTextField(10);
+		JTextField segundo = new JTextField(10);
+		JButton botao = new JButton(" = ");
+		JLabel resultado = new JLabel("           ?          ");
+		
+		//Quando clica no botão será executado a classe Multiplicador
+		
+		botao.addActionListener();
+		
+		
+	}
+
+}

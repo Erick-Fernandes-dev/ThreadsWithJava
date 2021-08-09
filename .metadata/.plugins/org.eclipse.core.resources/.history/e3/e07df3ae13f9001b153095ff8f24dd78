@@ -1,0 +1,20 @@
+public class Multiplicador extends Thread {...}
+
+Apesar de ser um código mais simples, você está usando ou abusando a herança. 
+Essa forma de herança também é chamada de "herança por preguiça".
+
+Repare que, ao estender a classe Thread, herdamos um monte de métodos mas usamos apenas
+o run. Além disso, não estamos querendo aproveitar o polimorfismo que a herança traz.
+
+Hoje em dia, apesar de ser funcional, essa forma de criar uma thread é considerada um mau exemplo de herança.
+
+Prefira sempre implementar o Runnable a herdar de Thread. Separando as responsabilidades de ser uma
+thread da definição da tarefa, seguimos as boas práticas do mundo OO. Neste treinamento sempre usaremos
+uma tarefa (Runnable) separada da classe Thread, nunca usaremos herança.
+
+No blog da Caelum, o Paulo Silveira fala um pouco mais sobre esse assunto e dá outros exemplos de mau
+uso da herança:
+
+Como não aprender orientação a objetos - Herança
+
+Boa leitura :)

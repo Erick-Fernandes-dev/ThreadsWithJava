@@ -1,0 +1,12 @@
+package be.com.alura.ExercicioThread02;
+
+public class TarefaMultiplicacao implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

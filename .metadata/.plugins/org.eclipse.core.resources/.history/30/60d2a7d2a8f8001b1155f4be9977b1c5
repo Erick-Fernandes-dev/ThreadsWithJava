@@ -1,0 +1,24 @@
+package be.com.alura.ExercicioThread02;
+
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class TarefaMultiplicacao implements Runnable {
+
+	private JTextField primeiro;
+	private JTextField segundo;
+	private JLabel resultado;
+
+	public TarefaMultiplicacao(JTextField primeiro, JTextField segundo, JLabel resultado) {
+		this.primeiro = primeiro;
+		this.segundo = segundo;
+		this.resultado = resultado;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

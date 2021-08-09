@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="br.com.alura.threads.TarefaMultiplicacao"/>
+    <fullyQualifiedTypeName name="br.com.alura.Exerciciothreads.ImprimaString"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+</qualifiedTypeNameHistroy>
