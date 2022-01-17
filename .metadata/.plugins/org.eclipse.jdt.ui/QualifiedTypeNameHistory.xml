@@ -8,5 +8,6 @@
     <fullyQualifiedTypeName name="br.com.alura.threads.TarefaMultiplicacao"/>
     <fullyQualifiedTypeName name="br.com.alura.Exerciciothreads.ImprimaString"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="be.com.alura.ExercicioThread02.Multiplicador"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
